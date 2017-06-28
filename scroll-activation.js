@@ -3,35 +3,35 @@
 //  Scroll Activation
 //
 //  Summary
-//    Scroll Activation makes a section "active" when the top of it's container
+//    Scroll Activation makes an element "active" when the top of its container
 //    is scrolled upon
 //
 //  Usage
 //    .js-scroll-activation
-//       Add this class to the element you'd like to make active
+//       Add this class to the element you want to be the target of activation
 //
 //  Element Options
 //     [data-keep-this-active]
 //       Keeps the item always active once activated; otherwise, the active
 //       will be removed after going back up.
-//     [data-target="TARGET_ID"
-//       Add to the target element and any element you'd like to set 'is-active'
-//       Just have matching TARGET_IDs
+//     [data-target="TARGET_ID"]
+//       Add to the target element and any element you want to set 'is-active'.
+//       Be sure to use matching TARGET_IDs
 //     [data-activate-viewport-at-top]
-//       Activation matching occurs at the top of the viewport/window instead of
-//       the bottom
+//       Activation matching occurs at the top of the viewport/window instead
+//       of the bottom
 //     [data-activate-this-at-bottom]
 //       Activation matching occurs at the bottom of the element instead of the
 //       top
 //     [data-manual-offset="NUMBER"] -or- [data-manual-offset="QUERY-SELECTOR"]
 //       Either:
 //        option 1. Offset by a NUMBER of pixels. Do not include "px".
-//        option 2. Offset by another element using a query selector (like a header)
+//        option 2. Offset by an element (like a header) using a QUERY-SELECTOR
 //
 //  Creates
 //    .is-active
 //       This class gets added to both the .js-scroll-activation class and the
-//       [data-target="TARGET_ID]
+//       [data-target="TARGET_ID"]
 //
 //------------------------------------------------------------------------------
 ;(function() {
