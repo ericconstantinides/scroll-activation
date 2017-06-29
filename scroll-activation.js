@@ -101,7 +101,7 @@
         item.currentPxFromTop = item.getBoundingClientRect().top
 
         // get the height of the offsetEl
-        if (item.offsetEl !== 'undefined')
+        if (typeof item.offsetEl !== 'undefined')
           item.manualOffset = item.offsetEl.offsetHeight
 
         if (item.isActivatingAtBottom)
